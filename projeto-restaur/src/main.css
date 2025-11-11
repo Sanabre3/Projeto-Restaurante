@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../assets/Pacifico/Pacifico-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #e15f41;
+}
+.nav .nav-link.active{
+    background-color: #fff;
+    color: #e15f41;
+}
+
+.nav .nav-link{
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-tittle {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+#sobre-o-restaurante{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #e15f41;
+}
