@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../assets/Pacifico/Pacifico-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Corpo da página - usa Roboto como padrão */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container da navbar */
+.navbar {
+    background-color: #e15f41;
+}
+
+/* Links de navegação quando estão ativos */
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+/* Links de navegação*/
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+/* Links e brand da navbar */
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+/* Logo/Nome do Restaurante */
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* Botão de menu mobile - fundo branco */
+.navbar-toggler {
+    background-color: #fff;
+}
+
+
+/* Títulos principais */
+.section-tittle {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+/* Seção "Sobre o Restaurante" */
+#sobre-o-restaurante {
+    background-color: #ffeae6;
+}
+
+/*Secao "Cardapio" */
+#cardapio {
+    background-color: #fff5f2;
+}
+
+/* Cor de destaque para textos especiais */
+.text-colored {
+    color: #e15f41;
+}
+
+/* Link ativo no menu do cardápio */
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+/* Efeito hover no menu do cardápio */
+.nav-cardapio .nav-link:hover {
+    color: #e15f41;
+}
+
+/* Links de redes sociais no rodapé */
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+#fale-conosco button:hover {
+    background-color: #c94b32;
+    color: #fff;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
